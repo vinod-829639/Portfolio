@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinod - Portfolio</title>
+    <meta name="description" content="A personal portfolio website showcasing projects, skills, and experience.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">VINOD HOSMANI</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                        <i class="fa-solid fa-sun"></i>
+                    </button>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <div class="container home-content">
+                <div class="home-text" data-aos="fade-right">
+                    <p class="subtitle">Hello, I'm Vinod Hosmani</p>
+                    <h1 class="intro-text">I'm a <span class="typing-text"></span></h1>
+                    <p>Crafting digital experiences with modern technology and clean design.</p>
+                    <div class="home-buttons">
+                        <a href="#contact" class="cta-button">Hire Me</a>
+                        <a href="#projects" class="cta-button secondary">My Work</a>
+                    </div>
+                </div>
+                <div class="home-image" data-aos="fade-left">
+                    <img src="1715151341789.jpg" alt="Developer Illustration">
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator"><i class="fa-solid fa-arrow-down"></i></a>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">About Me</h2>
+                <div class="about-content">
+                    <div class="bio" data-aos="fade-right">
+                        <h3>A Passion for Pixels</h3>
+                        <p>I specialize in creating robust and scalable front-end products with great user experiences. My expertise lies in JavaScript, React, and modern CSS frameworks. I love transforming complex problems into intuitive designs.</p>
+                        <p>When I'm not coding, you'll find me exploring new design trends or hiking in the mountains.</p>
+                         <a href="" download class="cta-button download-cv">Download CV</a>
+                    </div>
+                    <div class="skills" data-aos="fade-left">
+                        <h3>My Toolkit</h3>
+                        <div class="skills-container">
+                            <div class="skill-item"><div class="skill-info"><span>React & JS</span><span>90%</span></div><div class="skill-bar"><div class="skill-level" style="--level: 90%;"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><span>CSS & Tailwind</span><span>95%</span></div><div class="skill-bar"><div class="skill-level" style="--level: 95%;"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><span>Node.js</span><span>75%</span></div><div class="skill-bar"><div class="skill-level" style="--level: 75%;"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><span>Html</span><span>95%</span></div><div class="skill-bar"><div class="skill-level" style="--level: 95%;"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><span>Php</span><span>85%</span></div><div class="skill-bar"><div class="skill-level" style="--level: 85%;"></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">What I Offer</h2>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card-inner">
+                            <div class="service-card-front"><i class="fa-solid fa-code"></i><h3>Web Development</h3></div>
+                            <div class="service-card-back"><h3>Web Development</h3><p>Building responsive, high-performance websites from scratch using modern technologies like React and Next.js.</p></div>
+                        </div>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card-inner">
+                            <div class="service-card-front"><i class="fa-solid fa-palette"></i><h3>UI/UX Design</h3></div>
+                            <div class="service-card-back"><h3>UI/UX Design</h3><p>Designing intuitive and engaging user interfaces with a focus on user experience, accessibility, and clean aesthetics.</p></div>
+                        </div>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card-inner">
+                            <div class="service-card-front"><i class="fa-solid fa-magnifying-glass-chart"></i><h3>SEO & Performance</h3></div>
+                            <div class="service-card-back"><h3>SEO & Performance</h3><p>Optimizing websites for search engines and ensuring fast load times for a better user experience and ranking.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+             <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <a href="https://agrotechservice.in/" target="_blank" class="project-card-link" data-aos="zoom-in">
+                        <div class="project-card">
+                            <img src="Screenshot 2025-07-16 140858.png" alt="Project 1">
+                            <div class="project-overlay">
+                                <h3>AGROTECH</h3>
+                                <p>View Project <i class="fa-solid fa-arrow-right"></i></p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Project 2 -->
+                    <a href="https://studio--cashease-ki3p4.us-central1.hosted.app/" target="_blank" class="project-card-link" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="project-card">
+                            <img src="Screenshot 2025-07-16 142402.png" alt="Project 2">
+                            <div class="project-overlay">
+                                <h3>MAGICSAVER</h3>
+                                <p>View Project <i class="fa-solid fa-arrow-right"></i></p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Project 3 -->
+                    <a href="https://9000-firebase-studio-1749851140246.cluster-44kx2eiocbhe2tyk3zoyo3ryuo.cloudworkstations.dev" target="_blank" class="project-card-link" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="project-card">
+                            <img src="Screenshot 2025-07-16 143710.png" alt="Project 3">
+                            <div class="project-overlay">
+                                <h3>BASAVA KRUSHI KENDRA</h3>
+                                <p> Permission Required To View Project <i class="fa-solid fa-arrow-right"></i></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline">
+             <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Education & Experience</h2>
+                <div class="timeline-container">
+                    <div class="timeline-column" data-aos="fade-right">
+                        <h3 class="timeline-header"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                        <div class="timeline-item"> <div class="timeline-dot"></div><h4>B.TECH</h4><span class="date">Srinivas Institute Of Technology Mukka| 2022 - 2026</span><p>Specialized in Computer Science.</p><P>CGPA:7.8</P></div>
+                        <div class="timeline-item"><div class="timeline-dot"></div><h4>PUC</h4><span class="date">Kalinga Pu Collage Manvi | 2019- 2020</span><p>Specialized in Science.</p><p>PERCENTAGE:83%</p></div>
+                    </div>
+                    <div class="timeline-column" data-aos="fade-left">
+                        <h3 class="timeline-header"><i class="fa-solid fa-briefcase"></i> Experience</h3>
+                        <div class="timeline-item"><div class="timeline-dot"></div><h4>Full Stack Devloper Intern</h4><span class="date">Wallnut Furniture| 2 - Months</span><p>Leading the development of responsive user interfaces using React,Next.js,Node.js.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info" data-aos="fade-right">
+                        <h3>Let's Connect</h3>
+                        <p><i class="fa-solid fa-envelope"></i>vkumar25724@gmail.com</p>
+                        <div class="social-links"><a href="https://github.com/vinod-829639" aria-label="GitHub"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/in/vinod-hosmani-79800a27a" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a><a href="https://x.com/VinodHosmani?t=XDXB4mW_yXO3ehnvtkCYnw&s=09" aria-label="Twitter"><i class="fab fa-twitter"></i></a></div>
+                    </div>
+                    <form id="contact-form" class="contact-form" data-aos="fade-left">
+                        <div class="form-group"><input type="text" id="name" name="name" placeholder="Your Name" required></div>
+                        <div class="form-group"><input type="email" id="email" name="email" placeholder="Your Email" required></div>
+                        <div class="form-group"><textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea></div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                        <p id="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container footer-container">
+            <div class="footer-column about">
+                <h3 class="logo">Vinod Hosmani</h3>
+                <p>A passionate developer dedicated to building beautiful and functional web applications.</p>
+                <div class="footer-social-links">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-column links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column contact">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-envelope"></i>vkumar25724@gmail.com</p>
+            </div>
+            <div class="footer-column newsletter">
+                <h4>Newsletter</h4>
+                <p>Stay updated with my latest projects and articles.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Designed & Developed by Vinod Hosmani. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
