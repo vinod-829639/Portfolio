@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Typing Effect ---
     const typingText = document.querySelector('.typing-text');
     if (typingText) {
-        const words = ["Developer", "Designer", "Creator"];
+        const words = ["Web Devloper", "Problem Solver", "Etrepreneur"];
         let wordIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
@@ -126,4 +126,5 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 5000);
         });
     }
+
 });
